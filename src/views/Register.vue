@@ -115,7 +115,7 @@ export default defineComponent({
         this.isLoading = false;
         console.log(result);
         if (result && result.status === 201) {
-          this.$toast.success(`Sign up successfull!`);
+          this.$toast.success(`Signed up successfully!`);
           // Redirect to login screen
           this.$router.push("/login");
         }
